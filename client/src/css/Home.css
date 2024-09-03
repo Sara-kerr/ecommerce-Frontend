@@ -1,0 +1,57 @@
+
+
+
+
+.home {
+  background-image: url("https://img.freepik.com/free-vector/halftone-background-with-waves_23-2148907690.jpg?t=st=1722440064~exp=1722443664~hmac=2f2f008938202e7661ff45892ac2ad6759c978d7c1e44e36b54ec38a5c18b964&w=1060"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-content {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  color: #333; /* Darker text color for contrast */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px; /* Set a max-width to make the container smaller */
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #007bff; /* Contrast color for the header */
+}
+
+.home p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  color: #555; /* Slightly darker color for the description text */
+}
+
+.start-shopping-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.start-shopping-button:hover {
+  background-color: #0056b3;
+}
